@@ -9,7 +9,7 @@
     --gradient: linear-gradient(
         123.79deg, 
         var(--color-dark-light) 22.27%, 
-        var(var(--color-dark-gradient)) 94.29%
+        var(--color-dark-gradient) 94.29%
     );
 
     --border: #{rem(0.75)};
@@ -18,5 +18,5 @@
 
     --container-width:#{rem(1440)};
 
-    -transition-duration: 0.2s;
+    --transition-duration: 0.2s;
 }
