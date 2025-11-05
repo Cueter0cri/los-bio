@@ -209,6 +209,7 @@ svg * {
 }
 :root {
   --color-light:#FFFFFF;
+  --color-gray: #FFFFFF26;
   --color-dark-light: #00011A;
   --color-dark-gradient: #0F0F0F;
   --color-accent: #1078D7;
@@ -332,4 +333,15 @@ button[aria-label]::before {
   position: sticky;
   z-index: 100;
   top: 0;
+}
+.header__info {
+  padding-block: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem 1.25rem;
+  gap: 0.625rem;
+  font-size: 13px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1490196078);
 }/*# sourceMappingURL=main.css.map */

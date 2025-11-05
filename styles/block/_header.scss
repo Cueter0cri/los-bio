@@ -4,4 +4,16 @@
     position: sticky;
     z-index: 100;
     top: 0;
+
+    &__info {
+        padding-block: rem(20);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: rem(10) rem(20);
+        gap: rem(10);
+        font-size: 13px;
+        border-bottom: 1px solid #FFFFFF26;
+    }
 }
